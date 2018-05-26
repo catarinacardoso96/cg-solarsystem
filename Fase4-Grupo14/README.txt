@@ -22,9 +22,12 @@ para criar executavel do programa correr na linha de comandos:
 
 >Generator.exe bezier (tesselation level) (ficheiro.patch) (nome do ficheiro)
 
+
 Engine:
 Executar o CMake na pasta Engine
-
+Compilar no VS
+para executar:
+Engine.exe xmlfile.xml
 
 
 Exemplos:
