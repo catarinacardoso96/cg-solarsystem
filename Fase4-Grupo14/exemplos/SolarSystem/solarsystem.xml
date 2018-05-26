@@ -213,7 +213,7 @@
 			<rotate angle=30 axisX=0 axisY=1 axisZ=0 />
 			<rotate time=100 axisX=0 axisY=1 axisZ=0 />
 			<models>
-				<model file="belt.3d" texture="asteroid2.jpg" ambiR=0.7 ambiG=0.7 ambiB=0.7 />
+				<model file="belt.3d" texture="asteroid2.png" ambiR=0.7 ambiG=0.7 ambiB=0.7 />
 			</models>			
 		</group>
 	</group>
