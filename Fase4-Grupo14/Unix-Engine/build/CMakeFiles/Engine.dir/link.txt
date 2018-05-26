@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Engine.dir/main.cpp.o CMakeFiles/Engine.dir/catmullrom.cpp.o  -o Engine -lGLEW -lIL -lGL -lGLU -lglut -lXmu -lXi -lGL -lGLU -lGLEW -lGL -lGLU -lIL -lglut -lXmu -lXi 
