@@ -1,7 +1,0 @@
-﻿  Building Custom Rule D:/Catarina/Documents/UM/CG/Fase4-Grupo14/Engine/code/CMakeLists.txt
-  CMake does not need to re-run because D:/Catarina/Documents/UM/CG/Fase4-Grupo14/Engine/build/CMakeFiles/generate.stamp is up-to-date.
-  main.cpp
-d:\catarina\documents\um\cg\fase4-grupo14\engine\code\main.cpp(458): warning C4101: 'i': unreferenced local variable
-  catmullrom.cpp
-  Generating Code...
-  Engine.vcxproj -> D:\Catarina\Documents\UM\CG\Fase4-Grupo14\Engine\build\Release\Engine.exe
