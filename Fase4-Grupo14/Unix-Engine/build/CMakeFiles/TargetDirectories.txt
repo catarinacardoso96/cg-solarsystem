@@ -1,3 +1,0 @@
-/home/francisco/Desktop/cg-solarsystem/Fase4-Grupo14/Engine/build/CMakeFiles/rebuild_cache.dir
-/home/francisco/Desktop/cg-solarsystem/Fase4-Grupo14/Engine/build/CMakeFiles/Engine.dir
-/home/francisco/Desktop/cg-solarsystem/Fase4-Grupo14/Engine/build/CMakeFiles/edit_cache.dir

@@ -29,6 +29,11 @@ Compilar no VS
 para executar:
 Engine.exe xmlfile.xml
 
+Unix-Engine:
+cmake-gui &
+make Engine
+./Engine xmlfile.xml
+
 
 Exemplos:
 2 ficheiros .xml
