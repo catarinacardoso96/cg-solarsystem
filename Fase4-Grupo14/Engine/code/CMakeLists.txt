@@ -82,6 +82,7 @@ if (WIN32)
 	file(COPY ${CMAKE_SOURCE_DIR}/../../exemplos/Figures/plane.3d DESTINATION ${CMAKE_BINARY_DIR})
 	file(COPY ${CMAKE_SOURCE_DIR}/../../exemplos/Figures/sphere.3d DESTINATION ${CMAKE_BINARY_DIR})
 	file(COPY ${CMAKE_SOURCE_DIR}/../../exemplos/Figures/teapot.3d DESTINATION ${CMAKE_BINARY_DIR})
+	file(COPY ${CMAKE_SOURCE_DIR}/../../exemplos/Figures/torus.3d DESTINATION ${CMAKE_BINARY_DIR})
 
 
 else(WIN32)
