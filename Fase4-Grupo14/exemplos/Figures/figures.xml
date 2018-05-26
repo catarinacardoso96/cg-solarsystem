@@ -1,0 +1,107 @@
+<scene>
+	<lights>
+		<light type="point" posX=-130 posY=70 posZ=-60 />
+	</lights>
+	<group>
+		<translate X=-110 Y=40 Z=-60 />
+		<group>
+			<group>
+				<rotate angle=180 axisZ=1 />
+				<rotate time=20 axisY=1 />
+				<models>
+					<!--torus-->
+					<model file="torus.3d" texture="donut.jpg"/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<translate X=-15 />
+			<scale X=3 Y=3 Z=3 />
+			<rotate time=20 axisY=1 axisZ=1 />
+			<models>
+				<!--box-->
+				<model file="box.3d" texture="crate.png"/>
+			</models>
+		</group>
+		<group>
+			<translate X=30 />
+			<group>
+				<rotate time=4 axisY=1 />
+				<scale X=5, Y=5, Z=5 />
+				<models>
+					<!--sphere-->
+					<model file="sphere.3d" texture="2k_saturn.jpg" />
+				</models>
+			</group>
+			<group>
+				<scale X=7.5, Y=7.5, Z=7.5 />
+				<rotate angle=10 axisX=1 axisY=1 axisZ=0 />
+				<rotate time=4 axisY=1 />
+				<models>
+					<!--crown-->
+					<model file="crown.3d" texture="saturn_ring.jpg" />
+				</models>
+			</group>
+		</group>
+		<group>
+			<rotate angle=180 axisZ=1 />
+			<scale X=0.2 Y=0.2 Z=0.2 />
+			<translate time=88>
+				<point X=-20 Y=0 Z=0 />
+				<point X=-14.14 Y=0 Z=14.14 />
+				<point X=0 Y=0 Z=20 />
+				<point X=14.14 Y=0 Z=14.14 />
+				<point X=20 Y=0 Z=0 />
+				<point X=14.14 Y=0 Z=-14.14 />
+				<point X=0 Y=0 Z=-20 />
+				<point X=-14.14 Y=0 Z=-14.14 />
+			</translate>
+			<rotate time=3 axisY=1 />
+			<scale X=2, Y=2, Z=2 />
+			<models>
+				<!--cone-->
+				<model file="cone.3d" diffR="1" diffG="0.01" diffB="0.1" ambiR="0.5" ambiG="0" ambiB="0" specR="1" specG="1" specB="1" />
+			</models>
+		</group>
+		<group>
+			<rotate angle=180 axisZ=1 />
+			<scale X=0.2 Y=0.2 Z=0.2 />
+			<translate time=224>
+				<point X=40 Y=0 Z=0 />
+				<point X=28.28 Y=0 Z=-28.28 />
+				<point X=0 Y=0 Z=-40 />
+				<point X=-28.28 Y=0 Z=-28.28 />
+				<point X=-40 Y=0 Z=0 />
+				<point X=-28.28 Y=0 Z=28.28 />
+				<point X=0 Y=0 Z=40 />
+				<point X=28.28 Y=0 Z=28.28 />
+			</translate>
+			<rotate time=7 axisY=-1 />
+			<scale X=2, Y=2, Z=2 />
+			<models>
+				<!--cylinder-->
+				<model file="cylinder.3d" diffR="1" diffG="1" diffB="1" ambiR="0" ambiG="0.5" ambiB="0" />
+			</models>
+		</group>
+		<group>
+			<scale X=0.2 Y=0.2 Z=0.2 />
+			<translate time=365>
+				<point X=42.42 Y=0 Z=-42.42 />
+				<point X=0 Y=0 Z=-60 />
+				<point X=-42.42 Y=0 Z=-42.42 />
+				<point X=-60 Y=0 Z=0 />
+				<point X=-42.42 Y=0 Z=42.42 />
+				<point X=0 Y=0 Z=60 />
+				<point X=42.42 Y=0 Z=42.42 />
+				<point X=60 Y=0 Z=0 />
+			</translate>
+			<rotate angle=24 axisY=1 axisZ=1 />
+			<rotate time=10 axisY=1 />
+			<scale X=2, Y=2, Z=2 />
+			<models>
+				<!--teapot-->
+				<model file="teapot.3d" texture="2k_sun.jpg" />
+			</models>
+		</group>
+	</group>
+</scene>
